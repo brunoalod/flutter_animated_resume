@@ -1,0 +1,61 @@
+name: flutter_animated_resume
+description: An animated resume in Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - assets/images/
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/rubik/Rubik-Light.ttf
+          weight: 100          
+        - asset: assets/fonts/rubik/Rubik-Regular.ttf          
+          weight: 300
+        - asset: assets/fonts/rubik/Rubik-Medium.ttf          
+          weight: 400
+        - asset: assets/fonts/rubik/Rubik-SemiBold.ttf          
+          weight: 500
+        - asset: assets/fonts/rubik/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/rubik/Rubik-Black.ttf
+          weight: 800
+        - asset: assets/fonts/rubik/Rubik-ExtraBold.ttf
+          weight: 900 
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/poppins/Poppins-Thin.ttf
+          weight: 200
+        - asset: assets/fonts/poppins/Poppins-Light.ttf
+          weight: 300          
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf          
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf          
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-SemiBold.ttf          
+          weight: 600
+        - asset: assets/fonts/poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/poppins/Poppins-Black.ttf
+          weight: 800
+        - asset: assets/fonts/poppins/Poppins-ExtraBold.ttf
+          weight: 900 
+
+  uses-material-design: true
